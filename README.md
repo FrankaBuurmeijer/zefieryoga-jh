@@ -73,3 +73,5 @@ No build command or CI pipeline is needed.
 - **Images** -- replace the JPGs in the `images/` folder, keeping the same filenames (or update the `src` attributes in the HTML).
 - **Colours** -- all colours are defined as CSS custom properties at the top of `styles.css` under `:root`. Change them there to retheme the whole site.
 - **Fonts** -- swap the Google Fonts `<link>` in `index.html` and update the `--font-serif` / `--font-sans` variables in `styles.css`.
+
+kick
