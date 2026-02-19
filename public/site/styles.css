@@ -13,14 +13,15 @@
 }
 
 :root {
-  --cream: #ede7e0;
-  --cream-dark: #e4ddd4;
-  --sage: #3a5a40;
-  --sage-hover: #2f4a34;
-  --terracotta: #b87a4b;
-  --text: #2c2420;
-  --text-muted: #7a6f66;
-  --border: #d4ccc3;
+  --cream: #ece4da;
+  --cream-dark: #e1d8cd;
+  --mist: #c7d0d3;
+  --sage: #56848a;
+  --sage-hover: #476d72;
+  --terracotta: #b89a7e;
+  --text: #2e2a26;
+  --text-muted: #7a7067;
+  --border: #d0c8be;
   --white: #f5f0eb;
   --radius: 2px;
 }
@@ -161,7 +162,7 @@ input, select, textarea {
   left: 0;
   right: 0;
   z-index: 100;
-  background-color: rgba(237, 231, 224, 0.85);
+  background-color: rgba(236, 228, 218, 0.9);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
@@ -267,7 +268,7 @@ input, select, textarea {
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(44, 36, 32, 0.45);
+  background-color: rgba(44, 36, 32, 0.5);
 }
 
 .hero__content {
@@ -341,7 +342,7 @@ input, select, textarea {
    ================== */
 .about {
   padding: 6rem 1.5rem;
-  background-color: var(--cream-dark);
+  background-color: var(--mist);
 }
 
 .about__grid {
@@ -436,7 +437,7 @@ input, select, textarea {
 }
 
 .class-card:hover {
-  border-color: rgba(58, 90, 64, 0.3);
+  border-color: rgba(86, 132, 138, 0.3);
 }
 
 .class-card__day {
@@ -600,6 +601,7 @@ input, select, textarea {
 .reviews {
   padding: 6rem 1.5rem;
   text-align: center;
+  background-color: var(--mist);
 }
 
 .reviews__carousel {
@@ -828,7 +830,7 @@ input, select, textarea {
 
 .form__input::placeholder,
 .form__textarea::placeholder {
-  color: rgba(122, 111, 102, 0.5);
+  color: rgba(122, 112, 103, 0.5);
 }
 
 .form__textarea {
@@ -849,7 +851,7 @@ input, select, textarea {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  background-color: rgba(58, 90, 64, 0.1);
+  background-color: rgba(86, 132, 138, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
