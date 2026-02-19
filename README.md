@@ -15,10 +15,9 @@ No build step, no package manager, no bundler.
 
 ```
 public/
-  site/
-    index.html    -- the full website (single page)
-    styles.css    -- all styles
-    script.js     -- mobile menu, review carousel, contact form
+  index.html          -- the full website (single page)
+  styles.css          -- all styles
+  script.js           -- mobile menu, review carousel, contact form
   images/
     hero-aerial.jpg   -- hero section background
     instructor.jpg    -- about/teacher photo
@@ -43,24 +42,24 @@ public/
 Open the HTML file directly in a browser:
 
 ```bash
-open public/site/index.html
+open public/index.html
 # or on Linux
-xdg-open public/site/index.html
+xdg-open public/index.html
 ```
 
 Or use any simple local server:
 
 ```bash
-cd public/site
+cd public
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
 ## Hosting on GitHub Pages
 
-1. Push this repository to GitHub.
+1. Push the contents of the `public/` folder to a GitHub repository (so that `index.html` is at the repo root).
 2. Go to **Settings > Pages**.
-3. Set the source to **Deploy from a branch**, select the branch (e.g. `main`), and set the folder to `/public/site` (or move the files to the repo root).
+3. Set the source to **Deploy from a branch**, select the branch (e.g. `main`), and set the folder to `/` (root).
 4. Your site will be live at `https://<username>.github.io/<repo-name>/`.
 
 No build command or CI pipeline is needed.
