@@ -13,15 +13,15 @@
 }
 
 :root {
-  --cream: #ede7e0;
-  --cream-dark: #e4ddd4;
-  --sage: #3a5a40;
-  --sage-hover: #2f4a34;
-  --terracotta: #b87a4b;
-  --text: #2c2420;
-  --text-muted: #7a6f66;
-  --border: #d4ccc3;
-  --white: #f5f0eb;
+  --cream: #e5e4e4;
+  --cream-dark: #d9d8d8;
+  --sage: #56848a;
+  --sage-hover: #476d72;
+  --terracotta: #b89a7e;
+  --text: #2a2f30;
+  --text-muted: #6b7274;
+  --border: #c5c4c4;
+  --white: #f2f1f1;
   --radius: 2px;
 }
 
@@ -143,12 +143,12 @@ input, select, textarea {
 }
 
 .btn--ghost {
-  border: 1px solid rgba(245, 240, 235, 0.4);
+  border: 1px solid rgba(242, 241, 241, 0.4);
   color: var(--white);
 }
 
 .btn--ghost:hover {
-  background-color: rgba(245, 240, 235, 0.1);
+  background-color: rgba(242, 241, 241, 0.1);
 }
 
 
@@ -161,7 +161,7 @@ input, select, textarea {
   left: 0;
   right: 0;
   z-index: 100;
-  background-color: rgba(237, 231, 224, 0.85);
+  background-color: rgba(229, 228, 228, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
@@ -267,7 +267,7 @@ input, select, textarea {
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(44, 36, 32, 0.45);
+  background-color: rgba(44, 36, 32, 0.5);
 }
 
 .hero__content {
@@ -284,7 +284,7 @@ input, select, textarea {
   font-size: 0.8125rem;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  color: rgba(245, 240, 235, 0.8);
+  color: rgba(242, 241, 241, 0.8);
   margin-bottom: 1rem;
 }
 
@@ -297,7 +297,7 @@ input, select, textarea {
 .hero__desc {
   margin-top: 1.5rem;
   font-size: 1.125rem;
-  color: rgba(245, 240, 235, 0.8);
+  color: rgba(242, 241, 241, 0.8);
   max-width: 36rem;
   margin-left: auto;
   margin-right: auto;
@@ -436,7 +436,7 @@ input, select, textarea {
 }
 
 .class-card:hover {
-  border-color: rgba(58, 90, 64, 0.3);
+  border-color: rgba(86, 132, 138, 0.3);
 }
 
 .class-card__day {
@@ -828,7 +828,7 @@ input, select, textarea {
 
 .form__input::placeholder,
 .form__textarea::placeholder {
-  color: rgba(122, 111, 102, 0.5);
+  color: rgba(107, 114, 116, 0.5);
 }
 
 .form__textarea {
@@ -849,7 +849,7 @@ input, select, textarea {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
-  background-color: rgba(58, 90, 64, 0.1);
+  background-color: rgba(86, 132, 138, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
